@@ -1,9 +1,9 @@
-package com.hk.line_editor.command;
+package com.dasol.editor.command;
 
-import com.hk.line_editor.exception.ArgumentException;
-import com.hk.line_editor.main.Main_Ui;
-import com.hk.line_editor.util.FileManager;
-import com.hk.line_editor.util.Registry;
+import com.dasol.editor.exception.ArgumentException;
+import com.dasol.editor.main.Main_Ui;
+import com.dasol.editor.util.FileManager;
+import com.dasol.editor.util.Registry;
 
 public class Command_Load extends Command_Common {
 	public static final String CMD_NAME = "load";

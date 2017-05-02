@@ -1,11 +1,11 @@
-package com.hk.line_editor.main;
+package com.dasol.editor.main;
 
 import java.io.IOException;
 import java.util.Scanner;
 
-import com.hk.line_editor.command.Command;
-import com.hk.line_editor.exception.ArgumentException;
-import com.hk.line_editor.util.Registry;
+import com.dasol.editor.command.Command;
+import com.dasol.editor.exception.ArgumentException;
+import com.dasol.editor.util.Registry;
 
 public class Main_Ui {
 	private static final String INIT_MSG = "파일을 load 해라";

@@ -1,8 +1,8 @@
-package com.hk.line_editor.command;
+package com.dasol.editor.command;
 
-import com.hk.line_editor.exception.ArgumentException;
-import com.hk.line_editor.main.Main_Ui;
-import com.hk.line_editor.util.FileManager;
+import com.dasol.editor.exception.ArgumentException;
+import com.dasol.editor.main.Main_Ui;
+import com.dasol.editor.util.FileManager;
 
 public class Command_Exit extends Command_Common {
 	public static final String CMD_NAME = "exit";

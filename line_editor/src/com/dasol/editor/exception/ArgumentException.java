@@ -1,4 +1,4 @@
-package com.hk.line_editor.exception;
+package com.dasol.editor.exception;
 
 public class ArgumentException extends Exception {
 	private Exception original;

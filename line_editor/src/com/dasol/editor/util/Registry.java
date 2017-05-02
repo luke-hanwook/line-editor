@@ -1,20 +1,20 @@
-package com.hk.line_editor.util;
+package com.dasol.editor.util;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.hk.line_editor.command.Command;
-import com.hk.line_editor.command.Command_Append;
-import com.hk.line_editor.command.Command_Delete;
-import com.hk.line_editor.command.Command_Exit;
-import com.hk.line_editor.command.Command_Help;
-import com.hk.line_editor.command.Command_Insert;
-import com.hk.line_editor.command.Command_Load;
-import com.hk.line_editor.command.Command_Modify;
-import com.hk.line_editor.command.Command_Print;
-import com.hk.line_editor.command.Command_Save;
-import com.hk.line_editor.command.Command_Search;
+import com.dasol.editor.command.Command;
+import com.dasol.editor.command.Command_Append;
+import com.dasol.editor.command.Command_Delete;
+import com.dasol.editor.command.Command_Exit;
+import com.dasol.editor.command.Command_Help;
+import com.dasol.editor.command.Command_Insert;
+import com.dasol.editor.command.Command_Load;
+import com.dasol.editor.command.Command_Modify;
+import com.dasol.editor.command.Command_Print;
+import com.dasol.editor.command.Command_Save;
+import com.dasol.editor.command.Command_Search;
 
 public class Registry {
 	private static Map<String, Command> commandMap = new HashMap<>();

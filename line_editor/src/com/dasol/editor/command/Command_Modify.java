@@ -1,7 +1,7 @@
-package com.hk.line_editor.command;
+package com.dasol.editor.command;
 
-import com.hk.line_editor.exception.ArgumentException;
-import com.hk.line_editor.util.Registry;
+import com.dasol.editor.exception.ArgumentException;
+import com.dasol.editor.util.Registry;
 
 public class Command_Modify extends Command_Common {
 	public static final String CMD_NAME = "modify";

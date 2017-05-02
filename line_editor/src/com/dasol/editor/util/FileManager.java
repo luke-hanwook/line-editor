@@ -1,4 +1,4 @@
-package com.hk.line_editor.util;
+package com.dasol.editor.util;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -12,7 +12,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-import com.hk.line_editor.exception.ArgumentException;
+import com.dasol.editor.exception.ArgumentException;
 
 public class FileManager {
 	
